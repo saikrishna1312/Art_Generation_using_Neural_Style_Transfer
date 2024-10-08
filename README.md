@@ -1,6 +1,6 @@
 # Art Generation using Neural Style Transfer (NST) with TensorFlow
 
-This project implements Neural Style Transfer (NST) using TensorFlow and VGG19, allowing you to blend the artistic style of one image with the content of another. 
+This project implements Neural Style Transfer (NST) using TensorFlow and VGG19, allowing you to blend the artistic style of one image with the content of another based on the research paper "A Neural Algorithm of Artistic Style" by Gatys et al (https://arxiv.org/abs/1508.06576). 
 
 Introduction
 Neural Style Transfer is a technique used to apply the style of one image (such as a famous painting Starry Night by Van Gogh in this case) to the content of another image (image of Louvre Museum). This project utilizes the VGG19 model to extract the style and content features, optimizing a generated image to minimize the differences in content and style between the content and style images.
